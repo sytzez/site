@@ -1,0 +1,10 @@
+[
+    {
+        "ref": "http://example.org/blog/",
+        "title": "Solfable blog",
+        "section": "",
+        "tags": ["yes"],
+        "date" : "2022.09.29",
+        "body": "Solfablag Aw yeah\n"
+    }
+]

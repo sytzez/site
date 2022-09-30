@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>solfege on sytzez</title>
+    <link>https://sytzez.com/tags/solfege/</link>
+    <description>Recent content in solfege on sytzez</description>
+    <image>
+      <url>https://sytzez.com/papermod-cover.png</url>
+      <link>https://sytzez.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sytzez.com/tags/solfege/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modes of Solfege</title>
+      <link>https://sytzez.com/blog/modes-of-solfege/</link>
+      <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sytzez.com/blog/modes-of-solfege/</guid>
+      <description>The two skills of solfege Solfege, in its broadest sense, is really the study of mapping different representations of music to eachother. It eaches the skill of both recognising and reproducing music in those representations.
+graph RL A[Music] subgraph solfege B[Reproduction] C[Recognition] end A---B C---A Music&amp;rsquo;s main medium is sound, but it can also be represented by symbols in what&amp;rsquo;s called musical notation. Besides symbols, musical can be described in written or spoken language.</description>
+    </item>
+    
+  </channel>
+</rss>

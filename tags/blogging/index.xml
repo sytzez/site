@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>blogging on sytzez</title>
+    <link>https://sytzez.com/tags/blogging/</link>
+    <description>Recent content in blogging on sytzez</description>
+    <image>
+      <url>https://sytzez.com/papermod-cover.png</url>
+      <link>https://sytzez.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 29 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sytzez.com/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Initial post</title>
+      <link>https://sytzez.com/blog/initial-post/</link>
+      <pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sytzez.com/blog/initial-post/</guid>
+      <description>I&amp;rsquo;ve been thinking a while about starting a blog to get various ideas out there in the world, whether they be about programming, music or other things. Getting content out there on &amp;rsquo;the web&amp;rsquo; might help me promote the things I&amp;rsquo;m doing, attract likeminded people or people that can help me in my endeavours, and it can help me hold myself accountable to the ideas I get and the goals I set for myself.</description>
+    </item>
+    
+  </channel>
+</rss>
