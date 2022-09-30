@@ -1,5 +1,5 @@
-baseURL: "https://adityatelange.github.io/"
-title: Solfablog
+baseURL: "https://sytzez.com/"
+title: sytzez
 paginate: 5
 theme: PaperMod
 
@@ -26,9 +26,9 @@ languages:
           series: series
         menu:
             main:
-                - name: Archive
-                  url: archives
-                  weight: 5
+              # - name: Archive
+              #    url: archives
+              #    weight: 5
                 - name: Search
                   url: search/
                   weight: 10
@@ -46,7 +46,7 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "My blog about music, softwaredevelopment and other things."
+    description: "Read about music, software development and other things."
     author: sytzez
     # author: ["Me", "You"] # multiple authors
 
@@ -78,9 +78,10 @@ params:
               url: tags
 
     homeInfoParams:
-        Title: "Welcome to Solfablog"
+        Title: Hi
         Content: >
-            Welcome, stranger. Seek out what interests you.
+            Thanks for visiting my blog.
+            Seek out the content of your interest.
             I write about music, software development and other things.
     socialIcons:
         - name: github
