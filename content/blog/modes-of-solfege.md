@@ -14,8 +14,8 @@ It eaches the skill of both *recognising* and *reproducing* music in those repre
 graph RL
         A[Music]
         subgraph solfege
-        B[Reproduction]
-        C[Recognition]
+        B[Recognition]
+        C[Reproduction]
         end
         A---B
         C---A
@@ -67,20 +67,20 @@ I'll call them modes of solfege.
 
 ```mermaid
 graph TD
-        A[Sound]-->|Sound to Name|B[Name]
-        B-->|Name to Notation|C[Notation]
+        A[Sound]-->|Sound to Language|B[Language]
+        B-->|Language to Notation|C[Notation]
         C-->|Notation to Sound|A
         A-->|Sound to Notation|C
-        B-->|Name to Sound|A
-        C-->|Notation to Name|B
+        B-->|Language to Sound|A
+        C-->|Notation to Language|B
 ```
 
 To master a musical element means to master each of these six modes:
-Sound to name, name to notation, notation to sound, sound to notation, name to sound and notation to name.
+Sound to language, language to notation, notation to sound, sound to notation, language to sound and notation to language.
 Each of them can be practised separately.
 For example, sound to name means listening to a sound and being able to call the element by its name, without using any notation.
 Notation to sound means being able to read notes and hear in your head or physically reproduce the sound accurately.
-From these examples you can easily imagine the other modes.
-Once you're able to perform each of these six modes from a musical element, it will become a unified trinity.
-You'll be able to use and understand the musical element to its full extent.
+Looking at those examples you can easily imagine the other modes.
+Once you're able to perform each of these six modes for a specific musical element, the three representations will become a unified trinity in your mind.
+You'll be able to understand and utilize the musical element to its full extent.
 
