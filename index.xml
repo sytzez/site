@@ -17,7 +17,7 @@
       
       <guid>https://sytzez.com/blog/modes-of-solfege/</guid>
       <description>The two skills of solfege Solfege, in its fullest sense, is the art of translating musical ideas from one representation into another. It teaches the skill of, on the one hand, recognising music in all its forms and, on the other hand, reproducing music in another form.
-graph RL A[Music] subgraph solfege B[Recognition] C[Reproduction] end A---B C---A Music&amp;rsquo;s primary medium is sound. Another common medium, especially before the invention of audio recording, is music notation, which is written using special musical symbols known as &amp;rsquo;notes&amp;rsquo;.</description>
+graph RL A[Music] subgraph solfege B[Recognition] C[Reproduction] end A---B C---A Music&amp;rsquo;s primary medium is sound. Another common medium is music notation, which is written using special musical symbols known as &amp;rsquo;notes&amp;rsquo;.</description>
     </item>
     
     <item>
