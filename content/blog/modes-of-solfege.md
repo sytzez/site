@@ -21,18 +21,18 @@ graph RL
         C---A
 ```
 
-Music's primary medium is sound. Another common medium, especially before the invention of audio recording, is music notation, which is written using special musical symbols known as 'notes'.
+Music's primary medium is sound. Another common medium is music notation, which is written using special musical symbols known as 'notes'.
 Besides being represented by symbols, music can be described in written or spoken language.
 The availability of musicological terminology can make verbal descriptions as precise or even preciser than musical notation.
 
-With these three forms in mind, solfege teaches the ability of understanding each of those representations, as well as being able to accurately reproduce the same musical idea in another representation.
+Solfege teaches the ability of understanding each of these three forms, as well as being able to accurately reproduce the same musical idea in another form.
 
 ## The three representations
 
 A musical element is the smallest building block of music such as a pitch, an interval or a note value.
-Each musical element can be expressed in three different representations mentioned before.
-If you can recognise and reproduce each representation, you have mastered the solfege of that specific musical element.
-The three reperesentations of a musical element are: its sound, its name and its notation.
+Each musical element can be expressed in the three different representations mentioned before.
+If you are able to recognise and reproduce each representation, you have mastered the solfege of that specific musical element.
+The three reperesentations of a musical element are its *sound*, its *name* and its *notation*.
 
 ```mermaid
 graph LR
@@ -43,19 +43,19 @@ graph LR
         end
 ```
 
-For example: the pitch C4 has an identifiable sound quality, a certain frequency.
+For example: the pitch 'C4' (C natural in the fourth octave) has an identifiable sound quality, a certain frequency.
 While the timbre, dynamic or articulation of the sound might vary, the identifiable part is its frequency (assuming a certain tuning).
 Regardless of the tuning, it has an identifiable quality in the context of other pitches in the same tuning: C4 is always a whole tone below D4.
 Besides its sound quality, C4 also has a position on the musical staff, relative to the clef.
-Its sound is its sound, its name is C4, its notation is the position on the staff.
+Its sound is its sound, its name is 'C4', its notation is the position on the staff.
 
 Another example is the interval of a major third (M3). While the M3 doesn't have a specific pitch, its quality is identifiable when heard.
 Each dyad of notes that is a major third apart has that sound quality. It is also recognisable in notation, by the vertical distance between two notes.
 
-You could argue that a major third is not identifiable purely by its sound, because an augmented second (A2) has the same sound quality.
-When the interval is isolated this is true, but in a broader musical context (assuming tonal harmony), there is a definite difference between a M3 and a A2,
+You could argue that a major third (M3) is not identifiable purely by its sound, because an augmented second (A2) has the same sound quality.
+When the interval is isolated this is true, but in a broader musical context (assuming there is tonal harmony), there is an objective difference between a M3 and a A2,
 related to the melodic outline it's used in, or the functional harmonic progression the chord with the interval is part of.
-So it's possible to recognise a M3 or a A2 purely by listening. And that is definitely part of solfege.
+making it possible to recognise the different between a M3 or a A2 purely by listening. And that is definitely part of solfege.
 
 The same three representation can be derived from rhythmic note values, chords, dynamics, articulation, tempo indications, tonalities, modulations, time signatures and other musical elements.
 
