@@ -7,8 +7,8 @@ tags: [ "music", "solfege", "learning" ]
 
 ## The two skills of solfege
 
-Solfege, in its broadest sense, is really the study of mapping different representations of music to eachother.
-It eaches the skill of both *recognising* and *reproducing* music in those representations.
+Solfege, in its fullest sense, is the art of translating musical ideas from one representation into another.
+It teaches the skill of, on the one hand, *recognising* music in all its forms and, on the other hand, *reproducing* music in another form.
 
 ```mermaid
 graph RL
@@ -21,16 +21,17 @@ graph RL
         C---A
 ```
 
-Music's main medium is sound, but it can also be represented by symbols in what's called musical notation.
-Besides symbols, musical can be described in written or spoken language.
-Recognition means recognising the sound, notation and terminology of music.
-Reproduction means reproducing the sound, writing the notation and describing music accurately.
+Music's primary medium is sound. Another common medium, especially before the invention of audio recording, is music notation, which is written using special musical symbols known as 'notes'.
+Besides being represented by symbols, music can be described in written or spoken language.
+The availability of musicological terminology can make verbal descriptions as precise or even preciser than musical notation.
+
+With these three forms in mind, solfege teaches the ability of understanding each of those representations, as well as being able to accurately reproduce the same musical idea in another representation.
 
 ## The three representations
 
 A musical element is the smallest building block of music such as a pitch, an interval or a note value.
-Each musical element can be expressed in three different representations.
-If you can recognise and reproduce each representation, you have mastered the solfege of that musical element.
+Each musical element can be expressed in three different representations mentioned before.
+If you can recognise and reproduce each representation, you have mastered the solfege of that specific musical element.
 The three reperesentations of a musical element are: its sound, its name and its notation.
 
 ```mermaid
@@ -60,9 +61,11 @@ The same three representation can be derived from rhythmic note values, chords, 
 
 ## The six modes
 
-Solfege is the skill of translating music from one representation to another.
-It is *recognising* musical elements in one representation, and *reproducing* that same element in another representation.
-Since we've determined there are three representations of music, there must be six (two times three) ways of doing solfege.
+We've determined that solfege requires both recognising and reproducing musical representations.
+We've also determined that there are three main representations of a musical element.
+
+For each musical element, we can 'do' solfege in a number of different ways by varying the representation we recognise and the representation we reproduce.
+Since there are three representations, there must be six (two times three) ways of doing solfege.
 I'll call them modes of solfege.
 
 ```mermaid
@@ -75,12 +78,14 @@ graph TD
         C-->|Notation to Language|B
 ```
 
-To master a musical element means to master each of these six modes:
+To master the solfege of a musical element means to master each of these six modes:
 Sound to language, language to notation, notation to sound, sound to notation, language to sound and notation to language.
 Each of them can be practised separately.
-For example, sound to name means listening to a sound and being able to call the element by its name, without using any notation.
-Notation to sound means being able to read notes and hear in your head or physically reproduce the sound accurately.
-Looking at those examples you can easily imagine the other modes.
-Once you're able to perform each of these six modes for a specific musical element, the three representations will become a unified trinity in your mind.
+
+To give example of one of these modes: 'sound to name' means listening to a sound and being able to call the element by its name, without using any notation.
+'Notation to sound' means being able to read notes and hear in your head or physically reproduce the sound accurately.
+With some imagination you can easily imagine the other modes.
+
+Once you're able to succesfully perform each of these six modes for a specific musical element, the three representations will become a unified trinity in your mind.
 You'll be able to understand and utilize the musical element to its full extent.
 
