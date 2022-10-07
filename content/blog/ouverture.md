@@ -1,6 +1,13 @@
 ---
 title: "Composimg 'Ouveerure'"
+date: 2022-10-7
+tags: ["composition", "music"]
+draft: true
 ---
+This piexe is composed out of a skeletom od two vooce counteepoint consistinf mostlt od 3rds ans 6tha, usinf matwrial from a single melody whicj is aigmented, sjortened, embellished and variated.
+
+the skeleton isnthen embellished using suspensioms, passing tones, etc. and more voices were added in the middlento emhance the hwrmkniea.
+
 The piece starts with a melody in the top voice which is immitated in the bottom voice at double note values. The version in the top voice is ekbellished with susoensions and accenfed passing tones. The pbrase ends with a cadence in the home key of f minor
 
 Then a sequence occura with a sjortened vwrsion ofnthebmelodybij thebbass. it dexends steowise. the top boice comtaism variatioms of the same shortened melody.
