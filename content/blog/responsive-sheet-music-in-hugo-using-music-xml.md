@@ -1,9 +1,13 @@
 ---
 title: "Responsive sheet music in Hugo using MusicXML"
 date: 2022-10-08
-draft: true
 tags: [ "hugo", "music", "blogging" ]
 ---
+
+In this blog I will explain how to easily add sheet music to your site, such as the example below.
+Note how the division of the bars adjusts when you shrink your screen width, it's truly responsive!
+
+{{< music-xml "/music-xml/responsive-sheet-music-in-hugo-using-music-xml/chopin_op_10_no_1.mxl" >}}
 
 ### Introduction
 
@@ -70,7 +74,7 @@ For each of those containers, it creates a new OpenSheetMusicDisplay object and 
 To populate a page with `osmd-container` classes we can create a Hugo shortcode by adding a file called
 `layouts/shortcodes/music-xml.html` with the following contents:
 
-{{< highlight html >}}
+{{< highlight go-html-template >}}
 <div class="osmd-container" data-music-xml-src="{{ .Get 0 }}"></div>
 {{< /highlight >}}
 
@@ -82,18 +86,11 @@ The header script will convert this into musical notation.
 
 The shortcode can be used from within any Hugo content or layout file:
 
-{{< highlight html >}}
+{{< highlight go-html-template >}}
 {{</* music-xml "/music-xml/your-music-xml.mxl" */>}}
 {{< /highlight >}}
 
 Simply provide the local or global path to a MusicXML file.
 
-Note that this doesn't produce any audio.  
+Note that this doesn't produce any audio by itself.
 I like to add an `<audio>` tag with an mp3 file below the notation to provide playback functionality.
-
-### The result
-
-Here's a live example.
-Note how the division of the bars adjusts when you shrink your screen width, it's truly responsive!
-
-{{< music-xml "/music-xml/responsive-sheet-music-in-hugo-using-music-xml/chopin_op_10_no_1.mxl" >}}
