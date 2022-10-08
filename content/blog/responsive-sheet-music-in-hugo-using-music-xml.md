@@ -13,11 +13,12 @@ I will show you how to easily embed [MusicXML](https://www.musicxml.com/) conten
 MusicXML is the most common format of exchanging musical notation information between different programs.
 Whatever musical notation software you use, chances are very high they have an "export to MusicXML" functionality.
 Examples include [Sibelius](https://www.avid.com/sibelius), [Finale](https://www.finalemusic.com/), [noteflight](https://www.noteflight.com/) and many others.
-If you want to use a free, fully functional program, I recommend downloading [MuseScore](https://musescore.org/).
+If you want to use a free, fully functional program to create or edit musical notation, I recommend downloading [MuseScore](https://musescore.org/).
 
-To render your exported MusicXML in Hugo,
+To render your MusicXML files as notation on your Hugo site,
 we will be using a javascript library called [OpenSheetMusicDisplay](https://opensheetmusicdisplay.org/). 
 It reads MusicXML and renders it as an SVG using the widely used [VexFlow](https://www.vexflow.com/) library.
+It also supports guitar tabs.
 
 ### 1. Add scripts to the header
 
@@ -26,10 +27,20 @@ To start, add the following scripts to your header:
 {{< highlight html >}}
 <script id="osmd-script" async src="https://cdn.jsdelivr.net/npm/opensheetmusicdisplay@1.5.7/build/opensheetmusicdisplay.min.js"></script>
 <script>
-  // Wait for the DOM to completely load.
-  document.addEventListener('DOMContentLoaded', function () {
-    // Wait for the async osmd script to load.
-    document.getElementById('osmd-script').addEventListener('load', function () {
+  (function () {
+    // Wait for the DOM to render and the osmd script to load.
+    document.addEventListener('DOMContentLoaded', loadOsmd)
+    document.getElementById('osmd-script').addEventListener('load', loadOsmd)
+
+    var wait = true
+
+    function loadOsmd() {
+      // This is just to make sure both load events have fired before we do anything.
+      if (wait) {
+        wait = false
+        return
+      }
+
       // Iterate through all elements with class 'osmd-container'.
       document.querySelectorAll('.osmd-container').forEach(function (container) {
         // Create an OpenSheetMusicDisplay object for the container.
@@ -45,8 +56,8 @@ To start, add the following scripts to your header:
             osmd.render()
           })
       })
-    })
-  })
+    }
+  })();
 </script>
 {{< /highlight >}}
 
@@ -63,25 +74,26 @@ To populate a page with `osmd-container` classes we can create a Hugo shortcode 
 <div class="osmd-container" data-music-xml-src="{{ .Get 0 }}"></div>
 {{< /highlight >}}
 
+It simply renders an empty div with the `osmd-container` class and a `data-music-xml-src` attribute containing the MusicXML url which
+is provided to the shortcode as an argument.
+The header script will convert this into musical notation.
+
 ### 3. Use the shortcode inside your content
 
 The shortcode can be used from within any Hugo content or layout file:
 
 {{< highlight html >}}
-{{</* music-xml "/music-xml/bla.mxl" */>}}
+{{</* music-xml "/music-xml/your-music-xml.mxl" */>}}
 {{< /highlight >}}
 
 Simply provide the local or global path to a MusicXML file.
+
+Note that this doesn't produce any audio.  
+I like to add an `<audio>` tag with an mp3 file below the notation to provide playback functionality.
 
 ### The result
 
 Here's a live example.
 Note how the division of the bars adjusts when you shrink your screen width, it's truly responsive!
 
-I like to add an `<audio>` tag with an mp3 file under the notation to provide playback.
-
-{{< music-xml "https://downloads2.makemusic.com/musicxml/MozaVeilSample.xml" >}}
-
-<audio controls>
-    <source src="/music-xml/bla.mp3" type="audio/mpeg">
-</audio>
+{{< music-xml "/music-xml/responsive-sheet-music-in-hugo-using-music-xml/chopin_op_10_no_1.mxl" >}}

@@ -7,14 +7,24 @@
 </script>
 <script id="osmd-script" async src="https://cdn.jsdelivr.net/npm/opensheetmusicdisplay@1.5.7/build/opensheetmusicdisplay.min.js"></script>
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        document.getElementById('osmd-script').addEventListener('load', () => {
+    (() => {
+        document.addEventListener('DOMContentLoaded', loadOsmd)
+        document.getElementById('osmd-script').addEventListener('load', loadOsmd)
+
+        let wait = true
+
+        function loadOsmd() {
+            if (wait) {
+                wait = false
+                return
+            }
+
             document.querySelectorAll('.osmd-container').forEach((container) => {
                 const osmd = new opensheetmusicdisplay.OpenSheetMusicDisplay(
                     container,
                     {
                         drawingParameters: 'compacttight',
-                    }
+                    },
                 )
 
                 osmd.load(container.dataset.musicXmlSrc)
@@ -22,6 +32,6 @@
                         osmd.render()
                     })
             })
-        })
-    })
+        }
+    })();
 </script>
