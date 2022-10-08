@@ -1,4 +1,22 @@
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script id="mermaid-script" async src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 <script>
-  mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+    document.getElementById('mermaid-script')
+        .addEventListener('load', () => {
+            mermaid.initialize({ startOnLoad: true, theme: 'neutral' })
+        })
+</script>
+<script id="osmd-script" async src="https://cdn.jsdelivr.net/npm/opensheetmusicdisplay@1.5.7/build/opensheetmusicdisplay.min.js"></script>
+<script>
+    document.getElementById('osmd-script').addEventListener('load', () => {
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.osmd-container').forEach((container) => {
+                const osmd = new opensheetmusicdisplay.OpenSheetMusicDisplay(container)
+
+                osmd.load(container.innerHTML)
+                    .then(() => {
+                        osmd.render()
+                    })
+            })
+        })
+    })
 </script>
