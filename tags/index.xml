@@ -9,7 +9,34 @@
       <link>https://sytzez.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sytzez.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sytzez.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blogging</title>
+      <link>https://sytzez.com/tags/blogging/</link>
+      <pubDate>Sat, 08 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sytzez.com/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://sytzez.com/tags/hugo/</link>
+      <pubDate>Sat, 08 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sytzez.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>https://sytzez.com/tags/music/</link>
+      <pubDate>Sat, 08 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sytzez.com/tags/music/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>learning</title>
       <link>https://sytzez.com/tags/learning/</link>
@@ -20,29 +47,11 @@
     </item>
     
     <item>
-      <title>music</title>
-      <link>https://sytzez.com/tags/music/</link>
-      <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://sytzez.com/tags/music/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>solfege</title>
       <link>https://sytzez.com/tags/solfege/</link>
       <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>https://sytzez.com/tags/solfege/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blogging</title>
-      <link>https://sytzez.com/tags/blogging/</link>
-      <pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://sytzez.com/tags/blogging/</guid>
       <description></description>
     </item>
     

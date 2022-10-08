@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>music on sytzez</title>
-    <link>https://sytzez.com/tags/music/</link>
-    <description>Recent content in music on sytzez</description>
+    <title>hugo on sytzez</title>
+    <link>https://sytzez.com/tags/hugo/</link>
+    <description>Recent content in hugo on sytzez</description>
     <image>
       <url>https://sytzez.com/papermod-cover.png</url>
       <link>https://sytzez.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 08 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sytzez.com/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sytzez.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Responsive sheet music in Hugo using MusicXML</title>
       <link>https://sytzez.com/blog/responsive-sheet-music-in-hugo-using-music-xml/</link>
@@ -18,16 +18,6 @@
       <guid>https://sytzez.com/blog/responsive-sheet-music-in-hugo-using-music-xml/</guid>
       <description>In this blog I will explain how to easily add sheet music to your site, such as the example below. Note how the division of the bars adjusts when you shrink your screen width, it&amp;rsquo;s truly responsive!
 Introduction When writing blogs about music, you might want to render snippets of music notation in between paragraphs of text. I will show you how to easily embed MusicXML content within your Hugo posts.</description>
-    </item>
-    
-    <item>
-      <title>Modes of Solfege</title>
-      <link>https://sytzez.com/blog/modes-of-solfege/</link>
-      <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://sytzez.com/blog/modes-of-solfege/</guid>
-      <description>The two skills of solfege Solfege, in its fullest sense, is the art of translating musical ideas from one representation into another. It teaches the skill of, on the one hand, recognising music in all its forms and, on the other hand, reproducing music in another form.
-graph RL A[Music] subgraph solfege B[Recognition] C[Reproduction] end A---B C---A Music&amp;rsquo;s primary medium is sound. Another common medium is music notation, which is written using special musical symbols known as &amp;rsquo;notes&amp;rsquo;.</description>
     </item>
     
   </channel>
