@@ -9,7 +9,18 @@
       <link>https://sytzez.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 08 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sytzez.com/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sytzez.com/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Composing &#39;Ouverture&#39;</title>
+      <link>https://sytzez.com/blog/composing-ouverture/</link>
+      <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sytzez.com/blog/composing-ouverture/</guid>
+      <description>In this blog I will show how I composed the baroque style piece &amp;lsquo;Ouverture&amp;rsquo; starting with simple, strict two-voice counterpoint, and then embellishing that into a fuller baroque style.
+Most of the material is derived from a single melody which is varied using augmentation, fragmentation, inversion and embellishment.
+In the sheet music for this blog I&amp;rsquo;ve added numbers in between the two staves indicating the intervals between the top and the bottom voice.</description>
+    </item>
+    
     <item>
       <title>Responsive sheet music in Hugo using MusicXML</title>
       <link>https://sytzez.com/blog/responsive-sheet-music-in-hugo-using-music-xml/</link>
