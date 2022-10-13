@@ -16,7 +16,7 @@ Let's start off with some example code:
 
 
 {{< highlight ruby >}}
-mod Cat # Defines a module, an interface and a class, all called 'Cat'. Also defined a trait called 'Cat' with type () -> Cat, to transform other things into a Cat
+mod Cat # Defines a module, an interface and a class, all called 'Cat'. It also defines a trait called 'Cat' with type () -> Cat, to transform other things into a Cat
   class # Dependencies of the Cat class
     name: String # String is an interface
     birthDate: Date # Date is also an interface
@@ -38,7 +38,7 @@ I could shorten the defs to:
 {{< highlight ruby >}}
 defs
   Name: name
-  Age: Date.Diff: name, now
+  Age: Date.Diff(birthDate, now)
   String: name + " " + Age.String
 {{< /highlight >}}
 
