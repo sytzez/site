@@ -34,6 +34,19 @@ mod Vec2
         # Converts it to a Point. The Point trait is auto-declared by the Point module
         .Point: Point(X, Y) 
 
+# For 'public' fields I might short-hand this:
+mod Vec2
+    class
+        x: Float
+    traits
+        X: Float
+    defs
+        X: x
+# To this: (the uppercase first character would auto-define all of the above)
+mod Vec2
+    class
+        X: Float
+
 # A type of Vec2 with the same x and y. By defining the X and Y traits of Vec2,
 # it auto-defines all other Vec2 traits. You can use Vec2 and DiagonalVec2 instances
 # completely interchangeably because they have the same interfaces of traits.
@@ -41,7 +54,7 @@ mod DiagonalVec2
     class
         value: Float
     defs
-        Vector
+        Vec2
             X: value
             Y: value
 
@@ -60,7 +73,7 @@ mod Point
         .Vec2: Vec2(x, y)
 
 # A function to create a 'diagonal' point. This would work the same as
-# creating a whole DiagonalPoint class, since a class just becomes a function.
+# creating a whole DiagonalPoint class, since a class is just used a function.
 let DiagonalPoint(value: Float): DiagonalVec2(value).Point
 
 # Shape declares some traits but doesn't define them. It works like an interface.
