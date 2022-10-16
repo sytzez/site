@@ -9,7 +9,17 @@
       <link>https://sytzez.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 13 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sytzez.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sytzez.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sketch for a new programming language: Part 2</title>
+      <link>https://sytzez.com/blog/sketch-for-a-new-programming-language-2/</link>
+      <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sytzez.com/blog/sketch-for-a-new-programming-language-2/</guid>
+      <description>A solution to inheritance I&amp;rsquo;ve had some more thought about my programming language &amp;ldquo;Compost&amp;rdquo;. It has a solution to the old problems of object oriented programming, mainly class inheritance.
+One of the problems class inheritance tries to solve is repeated code between classes, by creating a superclass that contains all the common methods, which subclasses inherit from it. But class inheritance comes with its own problems, and has gotten out of favor.</description>
+    </item>
+    
     <item>
       <title>Sketch for a new programming language</title>
       <link>https://sytzez.com/blog/sketch-for-a-new-programming-language/</link>
