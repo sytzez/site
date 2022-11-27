@@ -331,4 +331,5 @@ However, the names in the code don't mean anything yet.
 Whenever there is a call to a `let`, it's not connected to the definition of that `let` yet.
 
 This 'meaning' of the code is analysed in the next step called semantic analysis.
+You can read about it in [the next part of this series](/blog/creating-a-compiler-for-compost-using-rust-part-3-semantic-analysis/).
 
