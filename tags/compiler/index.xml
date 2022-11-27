@@ -30,5 +30,15 @@ Structure of a Compiler Before embarking on this journey, I did some research on
 The Abstract Syntax Tree An abstract syntax tree (AST) represents the code at the level of statements and expressions. Every type of statement and expression has its own data structure, which can contain other statements or expressions, forming a tree of data structures.</description>
     </item>
     
+    <item>
+      <title>Creating a Compiler for Compost using Rust, Part 3: Semantic Analysis</title>
+      <link>https://sytzez.com/blog/creating-a-compiler-for-compost-using-rust-part-3-semantic-analysis/</link>
+      <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sytzez.com/blog/creating-a-compiler-for-compost-using-rust-part-3-semantic-analysis/</guid>
+      <description>In the previous installment of this series, I described how I turned the tokens into an abstract syntax tree (AST). The AST contains all statements, expressions and types of the program, but doesn&amp;rsquo;t link the together. All the names of variables, modules, traits and functions are simply Rust Strings without any meaning beyond that.
+To give meaning to these names we can use semantic analysis, which resolves the names into references to the right piece of information in our program.</description>
+    </item>
+    
   </channel>
 </rss>
