@@ -21,6 +21,16 @@ Structure of a Compiler Before embarking on this journey, I did some research on
     </item>
     
     <item>
+      <title>Creating a Compiler for Compost using Rust, Part 2: Syntactic Analysis</title>
+      <link>https://sytzez.com/blog/creating-a-compiler-for-compost-using-rust-part-2-syntactic-analysis/</link>
+      <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sytzez.com/blog/creating-a-compiler-for-compost-using-rust-part-2-syntactic-analysis/</guid>
+      <description>In the previous post, I described how I implemented lexical analysis for Compost. The next phase in compilation is syntactic analysis, which turns the string of tokens into an &amp;lsquo;abstract syntax tree&amp;rsquo;. It also throws meaningful errors when wrong syntax is used.
+The Abstract Syntax Tree An abstract syntax tree (AST) represents the code at the level of statements and expressions. Every type of statement and expression has its own data structure, which can contain other statements or expressions, forming a tree of data structures.</description>
+    </item>
+    
+    <item>
       <title>How I manage my work like a boss</title>
       <link>https://sytzez.com/blog/how-i-manage-my-work-like-a-boss/</link>
       <pubDate>Sat, 29 Oct 2022 00:00:00 +0000</pubDate>
