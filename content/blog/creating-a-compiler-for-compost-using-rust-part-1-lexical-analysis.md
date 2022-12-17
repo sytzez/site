@@ -320,9 +320,9 @@ The source of this struct is in [this file](https://github.com/sytzez/compost/bl
 
 # Conclusion
 
-Tokenization is probably the most straightforward part of compilation. By linearly traversing the characters code we get a vector of tokens.
+Tokenization is probably the most straightforward part of compilation. By linearly traversing the characters of the code we get a vector of tokens.
 Rust's enum type is ideal for representing tokens. Using enums will come in handy at later phases because we can use `match` statements to decide what happens when a token is encountered.
 
-The most complex part of this phase was adding 'levels', which is a unique feature of the Compost language that provides multiple syntaxes for organising the code into levels.
+The most complex part of this phase was adding 'levels', which is a unique feature of the Compost language that provides multiple syntaxes for organising the code.
 
 If you are curious to see how I turn these tokens into an abstract syntax tree, read [Part 2: Syntactic Analysis](/blog/creating-a-compiler-for-compost-using-rust-part-2-syntactic-analysis/).

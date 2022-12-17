@@ -7,14 +7,16 @@ tags: ["programming", "compost"]
 ## A solution to inheritance
 
 I've had some more thought about my programming language "Compost".
-It has a solution to the old problems of object oriented programming, mainly class inheritance.
+It might have its own solution to the old problems of object oriented programming, mainly class inheritance.
 
-One of the problems class inheritance tries to solve is repeated code between classes,
-by creating a superclass that contains all the common methods, which subclasses inherit from it.
-But class inheritance comes with its own problems, and has gotten out of favor.
+One of the problems class inheritance tries to solve is code reuse between classes.
+In OOP, you'd solve this by creating a superclass which contains the methods which are shared between classes.
+The classes that use those method then need to inheritd from that super class.
+Using class inheritance comes with many problems, and is not seen as an ideal solution by many people today.
 
-I want to show an example of the classic "Shapes" library, often used to teach object oriented programming,
-but implemented in Compost. Just read through the code comments to see the possibilities.
+I want to show an example of the classic "Shapes" library that is often used to explaing object oriented programming,
+but implemented in Compost.
+Read the comments as you go through the code comments to see what Compost offers.
 
 {{< highlight ruby >}}
 mod Vec2
