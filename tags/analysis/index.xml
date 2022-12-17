@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>composition on sytzez</title>
-    <link>https://sytzez.com/tags/composition/</link>
-    <description>Recent content in composition on sytzez</description>
+    <title>analysis on sytzez</title>
+    <link>https://sytzez.com/tags/analysis/</link>
+    <description>Recent content in analysis on sytzez</description>
     <image>
       <url>https://sytzez.com/papermod-cover.png</url>
       <link>https://sytzez.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 17 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sytzez.com/tags/composition/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sytzez.com/tags/analysis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Analysing the first page of Bach&#39;s French Ouverture BWV 831</title>
       <link>https://sytzez.com/blog/analysing-the-first-page-of-bachs-french-ouverture/</link>
@@ -17,17 +17,6 @@
       
       <guid>https://sytzez.com/blog/analysing-the-first-page-of-bachs-french-ouverture/</guid>
       <description>The beginning of Bach&amp;rsquo;s Ouverture in B minor is built from sequences hidden in plain sight. Sequences are parts of music that are repeated an interval higher or lower. In this particular piece, single notes in the melody and in the bass are repeated sequencially, moving in parallel most of the time. Due to embellishments and octave displacement, the sequences might not immediately be clear to the ear, but once you&amp;rsquo;ve seen my analysis, you&amp;rsquo;ll be convinced that this page of Bach&amp;rsquo;s music is fundamentally based on sequences.</description>
-    </item>
-    
-    <item>
-      <title>Composing &#39;Ouverture&#39;</title>
-      <link>https://sytzez.com/blog/composing-ouverture/</link>
-      <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://sytzez.com/blog/composing-ouverture/</guid>
-      <description>In this blog I will show how I composed the baroque style piece &amp;lsquo;Ouverture&amp;rsquo; starting with simple, strict two-voice counterpoint, and then embellishing that into a fuller baroque style.
-Most of the material is derived from a single melody which is varied using augmentation, fragmentation, inversion and embellishment.
-In the sheet music for this blog I&amp;rsquo;ve added numbers in between the two staves indicating the intervals between the top and the bottom voice.</description>
     </item>
     
   </channel>

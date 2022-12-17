@@ -9,7 +9,16 @@
       <link>https://sytzez.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 27 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sytzez.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sytzez.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analysing the first page of Bach&#39;s French Ouverture BWV 831</title>
+      <link>https://sytzez.com/blog/analysing-the-first-page-of-bachs-french-ouverture/</link>
+      <pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sytzez.com/blog/analysing-the-first-page-of-bachs-french-ouverture/</guid>
+      <description>The beginning of Bach&amp;rsquo;s Ouverture in B minor is built from sequences hidden in plain sight. Sequences are parts of music that are repeated an interval higher or lower. In this particular piece, single notes in the melody and in the bass are repeated sequencially, moving in parallel most of the time. Due to embellishments and octave displacement, the sequences might not immediately be clear to the ear, but once you&amp;rsquo;ve seen my analysis, you&amp;rsquo;ll be convinced that this page of Bach&amp;rsquo;s music is fundamentally based on sequences.</description>
+    </item>
+    
     <item>
       <title>Creating a Compiler for Compost using Rust, Part 1: Lexical Analysis</title>
       <link>https://sytzez.com/blog/creating-a-compiler-for-compost-using-rust-part-1-lexical-analysis/</link>
@@ -56,8 +65,8 @@ My to do list method has helped me keep an overview of everything I need to do. 
       <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://sytzez.com/blog/sketch-for-a-new-programming-language-2/</guid>
-      <description>A solution to inheritance I&amp;rsquo;ve had some more thought about my programming language &amp;ldquo;Compost&amp;rdquo;. It has a solution to the old problems of object oriented programming, mainly class inheritance.
-One of the problems class inheritance tries to solve is repeated code between classes, by creating a superclass that contains all the common methods, which subclasses inherit from it. But class inheritance comes with its own problems, and has gotten out of favor.</description>
+      <description>A solution to inheritance I&amp;rsquo;ve had some more thought about my programming language &amp;ldquo;Compost&amp;rdquo;. It might have its own solution to the old problems of object oriented programming, mainly class inheritance.
+One of the problems class inheritance tries to solve is code reuse between classes. In OOP, you&amp;rsquo;d solve this by creating a superclass which contains the methods which are shared between classes. The classes that use those method then need to inheritd from that super class.</description>
     </item>
     
     <item>

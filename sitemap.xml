@@ -2,8 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sytzez.com/blog/analysing-the-first-page-of-bachs-french-ouverture/</loc>
+    <lastmod>2022-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sytzez.com/tags/analysis/</loc>
+    <lastmod>2022-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sytzez.com/tags/bach/</loc>
+    <lastmod>2022-12-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sytzez.com/blog/</loc>
-    <lastmod>2022-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sytzez.com/tags/composition/</loc>
+    <lastmod>2022-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sytzez.com/tags/music/</loc>
+    <lastmod>2022-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sytzez.com/</loc>
+    <lastmod>2022-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sytzez.com/tags/</loc>
+    <lastmod>2022-12-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sytzez.com/tags/compiler/</loc>
     <lastmod>2022-11-27T00:00:00+00:00</lastmod>
@@ -26,12 +47,6 @@
     <loc>https://sytzez.com/tags/rust/</loc>
     <lastmod>2022-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sytzez.com/</loc>
-    <lastmod>2022-11-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sytzez.com/tags/</loc>
-    <lastmod>2022-11-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://sytzez.com/blog/how-i-manage-my-work-like-a-boss/</loc>
     <lastmod>2022-10-29T00:00:00+00:00</lastmod>
   </url><url>
@@ -51,12 +66,6 @@
     <lastmod>2022-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sytzez.com/blog/composing-ouverture/</loc>
-    <lastmod>2022-10-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sytzez.com/tags/composition/</loc>
-    <lastmod>2022-10-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sytzez.com/tags/music/</loc>
     <lastmod>2022-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sytzez.com/tags/blogging/</loc>
