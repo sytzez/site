@@ -9,7 +9,18 @@
       <link>https://sytzez.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 18 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sytzez.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sytzez.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compost update December &#39;22: Match, If and Booleans</title>
+      <link>https://sytzez.com/blog/compost-update-december-22-match-if-and-booleans/</link>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sytzez.com/blog/compost-update-december-22-match-if-and-booleans/</guid>
+      <description>It&amp;rsquo;s been due time to add control flow into Compost. We have it now!
+Match Expressions Match expressions allow you to use different flows based on some element&amp;rsquo;s type. Here&amp;rsquo;s an example:
+lets StringOrNothing(thing: @String | ?): String match matchedThing: thing @String: matchedThing.String ? : &amp;#39;Nothing&amp;#39; It takes a thing that implements the String trait or not. If it implements String, it returns that string. Otherwise it returns the String &amp;rsquo;nothing&#39;.</description>
+    </item>
+    
     <item>
       <title>Analysing the second page of Bach&#39;s French Ouverture BWV 831</title>
       <link>https://sytzez.com/blog/analysing-the-second-page-of-bachs-french-ouverture/</link>

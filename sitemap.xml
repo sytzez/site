@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sytzez.com/blog/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sytzez.com/tags/compost/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sytzez.com/blog/compost-update-december-22-match-if-and-booleans/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sytzez.com/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sytzez.com/tags/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sytzez.com/blog/analysing-the-second-page-of-bachs-french-ouverture/</loc>
     <lastmod>2022-12-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,28 +26,16 @@
     <loc>https://sytzez.com/tags/bach/</loc>
     <lastmod>2022-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sytzez.com/blog/</loc>
-    <lastmod>2022-12-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://sytzez.com/tags/composition/</loc>
     <lastmod>2022-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sytzez.com/tags/music/</loc>
     <lastmod>2022-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sytzez.com/</loc>
-    <lastmod>2022-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sytzez.com/tags/</loc>
-    <lastmod>2022-12-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://sytzez.com/blog/analysing-the-first-page-of-bachs-french-ouverture/</loc>
     <lastmod>2022-12-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sytzez.com/tags/compiler/</loc>
-    <lastmod>2022-11-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sytzez.com/tags/compost/</loc>
     <lastmod>2022-11-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sytzez.com/blog/creating-a-compiler-for-compost-using-rust-part-1-lexical-analysis/</loc>
