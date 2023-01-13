@@ -63,7 +63,7 @@ The melody uses the notes of the tone row as its guiding notes. Generally, each 
 
 Besides using the series to guide the broad motion of the melody, I've also used the main motive, extracted from the series, to determine the details of the melody. See below the first bars of music with this motive highlighted.
 
-{{< figure src="/assets/i-used-tonal-serialism-to-write-a-mazurka/motives.png" title="The 7 permutations of the tone row I've used" >}}
+{{< figure src="/assets/i-used-tonal-serialism-to-write-a-mazurka/motives.png" title="The first few bars, highlighting the main motive" >}}
 
 # Conclusion
 
