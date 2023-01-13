@@ -50,7 +50,7 @@ The piece is structured around the series' in the melody. No two series' occur a
 
 | Section      | A       | B          | C            | D                   | A'      |
 |--------------|---------|------------|--------------|---------------------|---------|
-| Permutations | 1, 2, 1 | 1, 4, 2, 4 | 5, 6         | 7, 7                | 1, 2, 1 |
+| Permutations | 1, 2, 1 | 1, 4, 3, 4 | 5, 6         | 7, 7                | 1, 2, 1 |
 | Key          | F minor | A major    | Transitional | C phrygian dominant | F minor |
 
 # Construction of the melody
